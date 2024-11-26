@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project default="javadoc">
+<target name="javadoc">
+<javadoc access="protected" author="true" classpath="." destdir="doc/reference" doctitle="M3G Toolkit API" nodeprecated="false" nodeprecatedlist="false" noindex="false" nonavbar="false" notree="false" packagenames="com.wizzer.m3g.nvtristrip,com.wizzer.m3g.toolkit.util,com.wizzer.m3g.toolkit.png,com.wizzer.m3g,com.wizzer.m3g.math" source="1.5" sourcepath="src" splitindex="true" use="true" version="true"/>
+</target>
+</project>

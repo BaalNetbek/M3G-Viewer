@@ -1,0 +1,102 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+    <head>
+      <title>M3G Viewer User Manual</title>
+      <style type="text/css">
+      <!--
+      body { 
+	background-image:   url(../../images/pkmn_pgbg.gif);
+	background-repeat: repeat-x;
+	background-color: #F8F8F8
+      }
+      -->
+      </style>
+    </head>
+    <body>
+   <div id="LayerLogo" style="position:absolute; left:1px; top:-14px; width:339px; z-index:4; visibility: visible;">
+    <a href="http://www.wizzerworks.com"><img src="../../images/WwLogo.gif" alt="" align="left" border="0"></a>
+    </div>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+<h1 align="center">M3G Viewer User Manual</h1>
+<p>This document provides information for using the M3G Viewer. <a href="#Figure1">Figure 
+  1</a> shows what the user interface should look like upon executing the browser, 
+  <em>M3gViewer.exe</em>. </p>
+<p><img src="../../images/Figure1.png" width="840" height="560
+"> 
+</p>
+<p align="center"><em><strong>Figure 1: M3G Viewer<a name="Figure1"></a></strong></em></p>
+<p align="left"><a href="#Figure1">Figure 1</a> shows four main views: the <strong>File 
+  View</strong>, the <strong>Gaph View</strong>, the <strong>Properties</strong> 
+  view, and the <strong>Console</strong>. The File View is used to inspect the 
+  contents of the <em>.m3g</em> file as it is structured in the file. The Graph 
+  View is used to inspect the structure of the scene graph and the relationship 
+  between the M3G Objects. The Properties view is used to browse the properties 
+  of each M3G Object and the Console is used to display messages resulting from 
+  using the M3G Viewer.</p>
+<p align="left">To view a .m3g file, simply open a file on your system using the 
+  <strong>File-&gt;Open</strong> menu item (see <a href="#Figure2">Figure 2</a>).</p>
+<p align="left"><img src="../../images/Figure2.png" width="840" height="560"></p>
+<p align="center"><em><strong>Figure 2: File Menu<a name="Figure2"></a></strong></em></p>
+<p align="left">The <strong>Open</strong> action will bring up a File Browser 
+  dialog panel, enabling you to select a .m3g file from your platform's file system. 
+  Once you open a file, the .m3g file will be analysed and the contents will be 
+  displayed in both the File and Graph Views. You can switch between views by 
+  selecting the tab item at the top of each view. <a href="#Figure3">Figure 3</a> 
+  shows content being displayed in the Graph View, while <a href="#Figure4">Figure 
+  4</a> shows content being displayed in the File View.</p>
+<p align="left"><img src="../../images/Figure3.png" width="840" height="560"></p>
+<p align="center"><em><strong>Figure 3: Graph View with Properties displaying 
+  Texture2D selection<a name="Figure3"></a></strong></em></p>
+<p align="left"><img src="../../images/Figure4.png" width="840" height="560"></p>
+<p align="center"><em><strong>Figure 4: File View with Properties displaying Camera 
+  selection<a name="Figure4"></a></strong></em></p>
+<p align="left">Note that <a href="#Figure3">Figure 3</a> and <a href="#Figure4">Figure 
+  4</a> also display Properties from the selected node in each view. The Properties 
+  view will be dynamically updated as the user selects M3G Objects in either the 
+  File or Graph View. The Properties view displays the attributes of each node 
+  in the selected object's hierarchy. For example, the Texture2D object in <a href="#Figure3">Figure 
+  3</a> is derived from the Transformable object, which in turn is derived from 
+  the Object3D object. The Properties view is displaying the attributes of each 
+  of these objects since Texture2D inherits the attributes of its parents, the 
+  Transformable and Object3D objects. To understand the context of these attributes, 
+  please refer to the M3G Specification.</p>
+<p align="left">In <a href="#Figure2">Figure 2</a>, the <strong>File-&gt;Dump</strong> 
+  menu item is used to export the contents of the .m3g file to an ASCII text file. 
+  This feature is useful for getting detailed information about each M3G Object 
+  without attempting to extract it from the Properties view. For instance, the 
+  contents of the VertexBuffer contains large arrays of values that are easier 
+  to read from the ASCII file than inspecting them via the Properties view.</p>
+<p align="left">A useful feature of the M3G Viewer is to extract individual objects 
+  from the scene graph into thier own file. For example lets assume that the user 
+  wants to create a valid .m3g file containing only the data representing a Mesh 
+  node and its dependencies (i.e. Appearance, VertexArray, VertexBuffer, etc.). 
+  This can be done by right-clicking on the object and selecting the <strong>Export</strong> 
+  item in the pop-up context menu (see <a href="#Figure5">Figure 5</a>). The Export 
+  action will bring up a Export Wizard providing the user with an interface for 
+  creating the new .m3g file (see <a href="#Figure6">Figure 6</a>).</p>
+<p align="left"><img src="../../images/Figure5.png" width="840" height="560"></p>
+<p align="center"><em><strong>Figure 5: Context Menu for exporting individual 
+  M3G Objects<a name="Figure5"></a></strong></em></p>
+<p align="left"><img src="../../images/Figure6.png" width="840" height="560"></p>
+<p align="center"><em><strong>Figure 6: The M3G Object Export Wizard<a name="Figure6"></a></strong></em></p>
+<p align="left">Version 0.3 of the M3G Viewer introduces a 3rd view for visualizing 
+  the .m3g file scene graph. After the .m3g file is loaded, the user may render 
+  the scene graph by selecting the <strong>Display</strong> menu item in the File 
+  or Graph view's pull-down menu (see <a href="#Figure7">Figure 7</a>). The current 
+  scene graph will be rendered, presenting the data in a 3D view (see <a href="#Figure8">Figure 
+  8</a>). If the M3G Viewer is occluded by another window, sometimes the 3D Display 
+  will not be refreshed when the window is brought to the top of the window stack. 
+  In this case, use the <strong>Refresh</strong> menu item in the File or Graph 
+  view's pull-down menu to update the display. </p>
+<p align="left"><img src="../../images/Figure7.png" width="840" height="680"></p>
+<p align="center"><strong><em>Figure 7: 3D View Display Context Menu<a name="Figure7"></a></em></strong></p>
+<p align="left"><em><strong><img src="../../images/Figure8.png" width="840" height="680"></strong></em></p>
+<p align="center"><strong><em>Figure 8: 3D View<a name="Figure8"></a></em></strong></p>
+<p align="left">Finally, to exit the M3G Viewer when you are done browsing the 
+  content of your .m3g file, simply choose <strong>File-&gt;Exit</strong> from 
+  the drop-down menu (see <a href="#Figure2">Figure 2</a>).</p>
+<p align="left">&nbsp;</p>
+</body>
+</html>

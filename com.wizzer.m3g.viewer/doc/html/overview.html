@@ -1,0 +1,104 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+    <head>
+      <title>M3G Viewer Overview</title>
+      <style type="text/css">
+      <!--
+      body { 
+	background-image:   url(../images/pkmn_pgbg.gif);
+	background-repeat: repeat-x;
+	background-color: #F8F8F8
+      }
+      -->
+      </style>
+    </head>
+    <body>
+   <div id="LayerLogo" style="position:absolute; left:1px; top:-14px; width:339px; z-index:4; visibility: visible;">
+    <a href="http://www.wizzerworks.com"><img src="../images/WwLogo.gif" alt="" align="left" border="0"></a>
+    </div>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+<h1 align="center">M3G Viewer</h1>
+<p>
+<h3 align="center">Version 0.3</h3>
+<h2><a class="anchor" name="overview">
+Overview</a></h2>
+<p>
+The M3G Viewer is a Java application for viewing Mobile 3D Graphics data.
+The Mobile 3D Graphics API (JSR-184) is a standardized Java ME API for
+3D graphics development. The API defines the <i>javax.microedition.m3g</i>
+package and is intended to support a wide range of mobile devices, even
+those that do not support floating-point mathematics (i.e. CLDC 1.0).
+</p>
+<p> The M3G API is designed to address several use cases including gaming, map 
+  visualization, and product visualization. The Mobile 3D Graphics 1.0 API supports 
+  scene graph mode (i.e. high-level) and also immediate mode (i.e. low-level) 
+  rendering. The API includes support for single camera (i.e. your point-of-view 
+  in the 3D viewing area) with fog, light, meshes, and materials. One of the most 
+  important features of the API is its ability to load external 3D models and 
+  scenes composed from 3rd-party tools, such as Autodesk's 3ds Max or Newtek's 
+  Lightwave3D. These external applications are used to output data to the .m3g 
+  file format. </p>
+<p>
+The M3G Viewer is used to view the contents of the .m3g file format.
+</p>
+<h2>Components of the M3G Viewer</h2>
+<p>
+The M3G Viewer project includes the following components:
+</p><p>
+<ul>
+<li><b>The M3G Toolkit</b> - This toolkit is an SDK for developing Mobile 3D
+Graphics applications and tools. It implements the M3G Specification
+(JSR-184) for PC platforms. It is completely written in the Java programming
+language.</li>
+<li><b>The M3G Viewer</b> - This application is a tool for viewing data in the
+.m3g file format, as defined by the JSR-184 specification. The M3G viewer
+is also written entirely in the Java programming language.</li>
+</ul>
+</p>
+<h3>M3G Toolkit</h3>
+<p>
+The M3G Toolkit implements version 1.1 of the Mobile 3D Graphics API.
+This specification, also referred to as <b><i>JSR-000184 Mobile 3D Graphics
+API for J2ME</i></b>, can be found
+<a href="http://jcp.org/aboutJava/communityprocess/final/jsr184/index.html">here</a>.
+</p>
+<p> Note that the namespace for the classes in this toolkit have been changed 
+  from <i>javax.microedition.m3g</i> to <i>com.wizzer.m3g</i>. This was done because 
+  the M3G toolkit is not a complete implementation of the JSR-184 specification 
+  and has not been verified against the M3G TCK.</p>
+<p>To facilitate rendering the .m3g file scene graph, a simple MIDP Emulator has 
+  been added in this version of the M3G Toolkit. The Graphics3D node has been 
+  added to flesh out the M3G API and can be used by a midlet targeting the MIDP 
+  Emulator. </p>
+<h3>M3G Viewer</h3>
+The M3G Viewer is an application written on top of the Eclipse Rich Client
+Platform (RCP) from <a href="http://www.eclipse.org">www.eclipse.org</a>.
+It has initially been deployed as a standalone application. However, in the
+near future, it will also be deployed as a plug-in extension for Eclipse.
+</p>
+<p> The viewer allows M3G developers to view the contents of a .m3g file. The 
+  user is able to view the .m3g data as it is layed out in the file as Scene Sections. 
+  An alternative view of the .m3g data is also provided for browsing the structure 
+  of the M3G scene graph. A properties view displays the attributes of each node 
+  in the scene graph. In addition to viewing the contents of the .m3g file, the 
+  user may select nodes in the scene graph and export them individually into thier 
+  own file. The resulting file will contain all relevant dependencies to reconstruct 
+  the exported node. Finally, this tool allows the user to dump the .m3g data 
+  as an ASCII text file. </p>
+<p> Version 0.3 introduces a major new feature: the M3G Viewer can render the 
+  scene graph into a 3rd view, giving the user a visual confirmation of the M3G 
+  data (without having to import the scene graph into a 3rd-party modelling/animation 
+  tool). The renderer is built on top of JOGL, the <a href="http://jogl.dev.java.net">Java 
+  Binding for the OpenGL API (JSR-231)</a>.</p>
+<p>In addition to fixing bugs, the next version of the M3G Viewer will provide 
+  a mechanism for editing the nodes in the M3G scene graph. Future plans include 
+  plug-ins for converting data from 3rd-party formats (i.e. Collada). This tool 
+  is currently being used to inspect models used by the Magic Lantern project 
+  (<a href="http://sourceforge.net/projects/wz-mle/">http://sourceforge.net/projects/wz-mle/</a>). 
+</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+</body>
+</html>

@@ -1,0 +1,6 @@
+<toc label="UserManual">
+    <topic label="Getting Started" href="doc/html/usermanual/gettingStarted.html">
+        <topic label="Mobile 3D Graphics Resources" href="doc/html/usermanual/M3G.html"/>
+        <topic label="M3G Viewer" href="doc/html/usermanual/m3gViewer.html"/>
+    </topic>
+</toc>

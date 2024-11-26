@@ -1,0 +1,9 @@
+<toc label="M3G Viewer" topic="doc/html/book.html">
+    <topic label="Overview" href="doc/html/overview.html"/>
+    <topic label="User Manual" href="doc/html/usermanual/userManual.html">
+        <link toc="doc/toc_UserManual.xml"/>
+    </topic>
+    <topic label="Reference"  href="doc/html/reference/reference.html">
+        <link toc="doc/toc_Reference.xml"/>
+    </topic>
+</toc>

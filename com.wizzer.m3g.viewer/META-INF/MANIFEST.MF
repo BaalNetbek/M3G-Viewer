@@ -1,0 +1,35 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Mobile 3D Graphics Viewer
+Bundle-SymbolicName: com.wizzer.m3g.viewer;singleton:=true
+Bundle-Version: 1.0.0
+Bundle-Activator: com.wizzer.m3g.viewer.Activator
+Bundle-Vendor: Wizzer Works
+Require-Bundle: org.eclipse.ui,
+ org.eclipse.ui.console,
+ org.eclipse.core.runtime,
+ org.eclipse.ui.views,
+ org.eclipse.help,
+ org.eclipse.help.ui,
+ org.eclipse.help.webapp,
+ org.eclipse.equinox.http.jetty,
+ org.eclipse.albireo.core
+Eclipse-LazyStart: true
+Bundle-ClassPath: .,
+ archive/m3gtoolkit.jar,
+ archive/gluegen-rt.jar,
+ archive/jogl.jar
+Export-Package: com.wizzer.m3g,
+ com.wizzer.m3g.lcdui,
+ com.wizzer.m3g.math,
+ com.wizzer.m3g.midlet,
+ com.wizzer.m3g.midp,
+ com.wizzer.m3g.nvtristrip,
+ com.wizzer.m3g.toolkit.png,
+ com.wizzer.m3g.toolkit.util,
+ com.wizzer.m3g.viewer,
+ com.wizzer.m3g.viewer.domain,
+ com.wizzer.m3g.viewer.ui,
+ com.wizzer.m3g.viewer.ui.actions,
+ com.wizzer.m3g.viewer.ui.property,
+ com.wizzer.m3g.viewer.ui.wizards

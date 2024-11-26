@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="WINDOWS-1252"?>
+<jardesc>
+<jar path="M:/projects/M3gToolkit/lib/m3gtoolkit.jar"/>
+<options buildIfNeeded="true" compress="true" descriptionLocation="/com.wizzer.m3g.toolkit/m3gtoolkit.jardesc" exportErrors="false" exportWarnings="true" includeDirectoryEntries="false" overwrite="false" saveDescription="true" storeRefactorings="false" useSourceFolders="false"/>
+<storedRefactorings deprecationInfo="true" structuralOnly="false"/>
+<selectedProjects/>
+<manifest generateManifest="true" manifestLocation="" manifestVersion="1.0" reuseManifest="false" saveManifest="false" usesManifest="true">
+<sealing sealJar="false">
+<packagesToSeal/>
+<packagesToUnSeal/>
+</sealing>
+</manifest>
+<selectedElements exportClassFiles="true" exportJavaFiles="false" exportOutputFolder="false">
+<javaElement handleIdentifier="=com.wizzer.m3g.toolkit/src&lt;com.wizzer.m3g.nvtristrip{VertexCache.java"/>
+<javaElement handleIdentifier="=com.wizzer.m3g.toolkit/src&lt;com.wizzer.m3g{Graphics3D.java"/>
+<javaElement handleIdentifier="=com.wizzer.m3g.toolkit/src&lt;com.wizzer.m3g.toolkit.util{ResourceRetriever.java"/>
+<javaElement handleIdentifier="=com.wizzer.m3g.toolkit/src&lt;com.wizzer.m3g{Transform.java"/>
+<javaElement handleIdentifier="=com.wizzer.m3g.toolkit/src&lt;com.wizzer.m3g.midlet{MIDletStateChangeException.java"/>
+<javaElement handleIdentifier="=com.wizzer.m3g.toolkit/src&lt;com.wizzer.m3g{HeaderObject.java"/>
+<javaElement handleIdentifier="=com.wizzer.m3g.toolkit/src&lt;com.wizzer.m3g{Loader.java"/>
+<javaElement handleIdentifier="=com.wizzer.m3g.toolkit/src&lt;com.wizzer.m3g{Group.java"/>
+<javaElement handleIdentifier="=com.wizzer.m3g.toolkit/src&lt;com.wizzer.m3g.lcdui{Command.java"/>
+<javaElement handleIdentifier="=com.wizzer.m3g.toolkit/src&lt;com.wizzer.m3g.lcdui{Canvas.java"/>
+<javaElement handleIdentifier="=com.wizzer.m3g.toolkit/src&lt;com.wizzer.m3g{Material.java"/>
+<javaElement handleIdentifier="=com.wizzer.m3g.toolkit/src&lt;com.wizzer.m3g.toolkit.util{DumpM3g.java"/>
+<javaElement handleIdentifier="=com.wizzer.m3g.toolkit/src&lt;com.wizzer.m3g{M3GObject.java"/>
+<javaElement handleIdentifier="=com.wizzer.m3g.toolkit/src&lt;com.wizzer.m3g.midp{MIDPEmulator.java"/>
+<javaElement handleIdentifier="=com.wizzer.m3g.toolkit/src&lt;com.wizzer.m3g.toolkit.util{Color.java"/>
+<javaElement handleIdentifier="=com.wizzer.m3g.toolkit/src&lt;com.wizzer.m3g.midp{Reflection.java"/>
+<javaElement handleIdentifier="=com.wizzer.m3g.toolkit/src&lt;com.wizzer.m3g.toolkit.util{Path.java"/>
+<javaElement handleIdentifier="=com.wizzer.m3g.toolkit/src&lt;com.wizzer.m3g.midp{Device.java"/>
+<javaElement handleIdentifier="=com.wizzer.m3g.toolkit/src&lt;com.wizzer.m3g.nvtristrip{NvEdgeInfo.java"/>
+<javaElement handleIdentifier="=com.wizzer.m3g.toolkit/src&lt;com.wizzer.m3g{MorphingMesh.java"/>
+<javaElement handleIdentifier="=com.wizzer.m3g.toolkit/src&lt;com.wizzer.m3g{Camera.java"/>
+<javaElement handleIdentifier="=com.wizzer.m3g.toolkit/src&lt;com.wizzer.m3g.toolkit.png{PNGChunk.java"/>
+<javaElement handleIdentifier="=com.wizzer.m3g.toolkit/src&lt;com.wizzer.m3g{PolygonMode.java"/>
+<javaElement handleIdentifier="=com.wizzer.m3g.toolkit/src&lt;com.wizzer.m3g.nvtristrip{IntVec.java"/>
+<javaElement handleIdentifier="=com.wizzer.m3g.toolkit/src&lt;com.wizzer.m3g{M3GOutputStream.java"/>
+<javaElement handleIdentifier="=com.wizzer.m3g.toolkit/src&lt;com.wizzer.m3g{Light.java"/>
+<javaElement handleIdentifier="=com.wizzer.m3g.toolkit/src&lt;com.wizzer.m3g.nvtristrip{NvEdgeInfoVec.java"/>
+<javaElement handleIdentifier="=com.wizzer.m3g.toolkit/src&lt;com.wizzer.m3g{M3GInputStream.java"/>
+<javaElement handleIdentifier="=com.wizzer.m3g.toolkit/src&lt;com.wizzer.m3g{Image2D.java"/>
+<javaElement handleIdentifier="=com.wizzer.m3g.toolkit/src&lt;com.wizzer.m3g{RayIntersection.java"/>
+<javaElement handleIdentifier="=com.wizzer.m3g.toolkit/src&lt;com.wizzer.m3g{RenderEventListener.java"/>
+<javaElement handleIdentifier="=com.wizzer.m3g.toolkit/src&lt;com.wizzer.m3g.nvtristrip{NvStripStartInfo.java"/>
+<javaElement handleIdentifier="=com.wizzer.m3g.toolkit/src&lt;com.wizzer.m3g{SceneSection.java"/>
+<javaElement handleIdentifier="=com.wizzer.m3g.toolkit/src&lt;com.wizzer.m3g{ExternalReferencesSection.java"/>
+<javaElement handleIdentifier="=com.wizzer.m3g.toolkit/src&lt;com.wizzer.m3g{Transformable.java"/>
+<javaElement handleIdentifier="=com.wizzer.m3g.toolkit/src&lt;com.wizzer.m3g{AnimationTrack.java"/>
+<javaElement handleIdentifier="=com.wizzer.m3g.toolkit/src&lt;com.wizzer.m3g{Section.java"/>
+<javaElement handleIdentifier="=com.wizzer.m3g.toolkit/src&lt;com.wizzer.m3g.lcdui{Display.java"/>
+<javaElement handleIdentifier="=com.wizzer.m3g.toolkit/src&lt;com.wizzer.m3g.math{Vector3.java"/>
+<javaElement handleIdentifier="=com.wizzer.m3g.toolkit/src&lt;com.wizzer.m3g{ExternalReference.java"/>
+<javaElement handleIdentifier="=com.wizzer.m3g.toolkit/src&lt;com.wizzer.m3g{World.java"/>
+<javaElement handleIdentifier="=com.wizzer.m3g.toolkit/src&lt;com.wizzer.m3g.midlet{MIDlet.java"/>
+<javaElement handleIdentifier="=com.wizzer.m3g.toolkit/src&lt;com.wizzer.m3g{Fog.java"/>
+<javaElement handleIdentifier="=com.wizzer.m3g.toolkit/src&lt;com.wizzer.m3g.nvtristrip{NvFaceInfo.java"/>
+<javaElement handleIdentifier="=com.wizzer.m3g.toolkit/src&lt;com.wizzer.m3g{Texture2D.java"/>
+<javaElement handleIdentifier="=com.wizzer.m3g.toolkit/src&lt;com.wizzer.m3g{Background.java"/>
+<javaElement handleIdentifier="=com.wizzer.m3g.toolkit/src&lt;com.wizzer.m3g{M3GFile.java"/>
+<javaElement handleIdentifier="=com.wizzer.m3g.toolkit/src&lt;com.wizzer.m3g.lcdui{CommandListener.java"/>
+<javaElement handleIdentifier="=com.wizzer.m3g.toolkit/src&lt;com.wizzer.m3g{Mesh.java"/>
+<javaElement handleIdentifier="=com.wizzer.m3g.toolkit/src&lt;com.wizzer.m3g.toolkit.png{PNGData.java"/>
+<javaElement handleIdentifier="=com.wizzer.m3g.toolkit/src&lt;com.wizzer.m3g.math{Constants.java"/>
+<javaElement handleIdentifier="=com.wizzer.m3g.toolkit/src&lt;com.wizzer.m3g{CompositingMode.java"/>
+<javaElement handleIdentifier="=com.wizzer.m3g.toolkit/src&lt;com.wizzer.m3g.nvtristrip{NvStripInfoVec.java"/>
+<javaElement handleIdentifier="=com.wizzer.m3g.toolkit/src&lt;com.wizzer.m3g.lcdui{Graphics.java"/>
+<javaElement handleIdentifier="=com.wizzer.m3g.toolkit/src&lt;com.wizzer.m3g{Sprite3D.java"/>
+<javaElement handleIdentifier="=com.wizzer.m3g.toolkit/src&lt;com.wizzer.m3g{KeyframeSequence.java"/>
+<javaElement handleIdentifier="=com.wizzer.m3g.toolkit/src&lt;com.wizzer.m3g{AnimationController.java"/>
+<javaElement handleIdentifier="=com.wizzer.m3g.toolkit/src&lt;com.wizzer.m3g.nvtristrip{NvTriStrip.java"/>
+<javaElement handleIdentifier="=com.wizzer.m3g.toolkit/src&lt;com.wizzer.m3g.toolkit.util{Unsigned.java"/>
+<javaElement handleIdentifier="=com.wizzer.m3g.toolkit/src&lt;com.wizzer.m3g{Appearance.java"/>
+<javaElement handleIdentifier="=com.wizzer.m3g.toolkit/src&lt;com.wizzer.m3g.midp{ResourceRetriever.java"/>
+<javaElement handleIdentifier="=com.wizzer.m3g.toolkit/src&lt;com.wizzer.m3g.nvtristrip{NvStripifier.java"/>
+<javaElement handleIdentifier="=com.wizzer.m3g.toolkit/src&lt;com.wizzer.m3g.math{Vector4.java"/>
+<javaElement handleIdentifier="=com.wizzer.m3g.toolkit/src&lt;com.wizzer.m3g.toolkit.png{PNGDecoder.java"/>
+<javaElement handleIdentifier="=com.wizzer.m3g.toolkit/src&lt;com.wizzer.m3g{VertexArray.java"/>
+<javaElement handleIdentifier="=com.wizzer.m3g.toolkit/src&lt;com.wizzer.m3g{HeaderSection.java"/>
+<javaElement handleIdentifier="=com.wizzer.m3g.toolkit/src&lt;com.wizzer.m3g{TriangleStripArray.java"/>
+<javaElement handleIdentifier="=com.wizzer.m3g.toolkit/src&lt;com.wizzer.m3g.nvtristrip{PrimitiveGroup.java"/>
+<javaElement handleIdentifier="=com.wizzer.m3g.toolkit/src&lt;com.wizzer.m3g{Node.java"/>
+<javaElement handleIdentifier="=com.wizzer.m3g.toolkit/src&lt;com.wizzer.m3g.lcdui{Displayable.java"/>
+<javaElement handleIdentifier="=com.wizzer.m3g.toolkit/src&lt;com.wizzer.m3g.nvtristrip{NvFaceInfoVec.java"/>
+<javaElement handleIdentifier="=com.wizzer.m3g.toolkit/src&lt;com.wizzer.m3g.math{Vector2.java"/>
+<javaElement handleIdentifier="=com.wizzer.m3g.toolkit/src&lt;com.wizzer.m3g{VertexBuffer.java"/>
+<javaElement handleIdentifier="=com.wizzer.m3g.toolkit/src&lt;com.wizzer.m3g{IndexBuffer.java"/>
+<javaElement handleIdentifier="=com.wizzer.m3g.toolkit/src&lt;com.wizzer.m3g{SkinnedMesh.java"/>
+<javaElement handleIdentifier="=com.wizzer.m3g.toolkit/src&lt;com.wizzer.m3g.nvtristrip{NvStripInfo.java"/>
+<javaElement handleIdentifier="=com.wizzer.m3g.toolkit/src&lt;com.wizzer.m3g{Object3D.java"/>
+</selectedElements>
+</jardesc>

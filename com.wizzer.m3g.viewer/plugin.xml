@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.2"?>
+<plugin>
+
+   <extension
+         id="application"
+         point="org.eclipse.core.runtime.applications">
+      <application>
+         <run
+               class="com.wizzer.m3g.viewer.Application">
+         </run>
+      </application>
+   </extension>
+   <extension
+         point="org.eclipse.ui.perspectives">
+      <perspective
+            name="Perspective"
+            class="com.wizzer.m3g.viewer.Perspective"
+            id="com.wizzer.m3g.viewer.perspective">
+      </perspective>
+   </extension>
+   <extension
+         point="org.eclipse.ui.views">
+      <view
+            name="File View"
+            class="com.wizzer.m3g.viewer.ui.M3gFileView"
+            id="com.wizzer.m3g.viewer.ui.m3gfileview"
+            icon="icons/tree_16.png">
+      </view>
+      <view
+            name="Graph View"
+            class="com.wizzer.m3g.viewer.ui.M3gGraphView"
+            id="com.wizzer.m3g.viewer.ui.m3ggraphview"
+            icon="icons/graph_16.png">
+      </view>
+      <view
+            name="3D View"
+            class="com.wizzer.m3g.viewer.ui.M3gOpenGLView"
+            id="com.wizzer.m3g.viewer.ui.m3gopenglview"
+            icon="icons/cube_16.png">
+      </view>
+   </extension>
+   <extension
+         id="product"
+         point="org.eclipse.core.runtime.products">
+      <product
+            application="com.wizzer.m3g.viewer.application"
+            description="A viewer for Mobile 3D Graphics scene graphs."
+            name="M3G Viewer">
+         <property
+               name="windowImages"
+               value="icons/cube_16.png,icons/cube_32.png">
+         </property>
+         <property
+               name="appName"
+               value="M3G Viewer">
+         </property>
+      </product>
+   </extension>
+   <extension point="org.eclipse.help.toc">
+      <toc file="doc/book.xml" primary="true" />
+   </extension>
+   <extension point="org.eclipse.help.toc">
+      <toc file="doc/toc_UserManual.xml" />
+      <toc file="doc/toc_Reference.xml" />
+   </extension>
+</plugin>
